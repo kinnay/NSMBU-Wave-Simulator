@@ -258,6 +258,7 @@ class MainWindow(QtWidgets.QMainWindow):
 		self.dock.setWidget(self.settings)
 		self.addDockWidget(QtCore.Qt.LeftDockWidgetArea, self.dock)
 		
+		self.setWindowTitle("NSMBU Wave Simulator")
 		self.resize(800, 600)
 		
 		
